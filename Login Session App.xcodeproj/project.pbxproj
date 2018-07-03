@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF7B0EF320EB4669001E5728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7B0EF220EB4669001E5728 /* AppDelegate.swift */; };
+		CF7B0EF520EB4669001E5728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7B0EF420EB4669001E5728 /* ViewController.swift */; };
+		CF7B0EF820EB4669001E5728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7B0EF620EB4669001E5728 /* Main.storyboard */; };
+		CF7B0EFA20EB4669001E5728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7B0EF920EB4669001E5728 /* Assets.xcassets */; };
+		CF7B0EFD20EB4669001E5728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7B0EFB20EB4669001E5728 /* LaunchScreen.storyboard */; };
+		CF7B0F0820EB4669001E5728 /* Login_Session_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7B0F0720EB4669001E5728 /* Login_Session_AppTests.swift */; };
+		CF7B0F1320EB466A001E5728 /* Login_Session_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7B0F1220EB466A001E5728 /* Login_Session_AppUITests.swift */; };
+		CF7B0F2120EB9C3C001E5728 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7B0F2020EB9C3C001E5728 /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF7B0F0420EB4669001E5728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7B0EE720EB4669001E5728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7B0EEE20EB4669001E5728;
+			remoteInfo = "Login Session App";
+		};
+		CF7B0F0F20EB466A001E5728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7B0EE720EB4669001E5728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7B0EEE20EB4669001E5728;
+			remoteInfo = "Login Session App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF7B0EEF20EB4669001E5728 /* Login Session App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login Session App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7B0EF220EB4669001E5728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF7B0EF420EB4669001E5728 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF7B0EF720EB4669001E5728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF7B0EF920EB4669001E5728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF7B0EFC20EB4669001E5728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF7B0EFE20EB4669001E5728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7B0F0320EB4669001E5728 /* Login Session AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login Session AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7B0F0720EB4669001E5728 /* Login_Session_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Session_AppTests.swift; sourceTree = "<group>"; };
+		CF7B0F0920EB466A001E5728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7B0F0E20EB466A001E5728 /* Login Session AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login Session AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7B0F1220EB466A001E5728 /* Login_Session_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Session_AppUITests.swift; sourceTree = "<group>"; };
+		CF7B0F1420EB466A001E5728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7B0F2020EB9C3C001E5728 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF7B0EEC20EB4669001E5728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7B0F0020EB4669001E5728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7B0F0B20EB466A001E5728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF7B0EE620EB4669001E5728 = {
+			isa = PBXGroup;
+			children = (
+				CF7B0EF120EB4669001E5728 /* Login Session App */,
+				CF7B0F0620EB4669001E5728 /* Login Session AppTests */,
+				CF7B0F1120EB466A001E5728 /* Login Session AppUITests */,
+				CF7B0EF020EB4669001E5728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF7B0EF020EB4669001E5728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF7B0EEF20EB4669001E5728 /* Login Session App.app */,
+				CF7B0F0320EB4669001E5728 /* Login Session AppTests.xctest */,
+				CF7B0F0E20EB466A001E5728 /* Login Session AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF7B0EF120EB4669001E5728 /* Login Session App */ = {
+			isa = PBXGroup;
+			children = (
+				CF7B0EF220EB4669001E5728 /* AppDelegate.swift */,
+				CF7B0EF420EB4669001E5728 /* ViewController.swift */,
+				CF7B0EF620EB4669001E5728 /* Main.storyboard */,
+				CF7B0EF920EB4669001E5728 /* Assets.xcassets */,
+				CF7B0EFB20EB4669001E5728 /* LaunchScreen.storyboard */,
+				CF7B0EFE20EB4669001E5728 /* Info.plist */,
+				CF7B0F2020EB9C3C001E5728 /* HomeViewController.swift */,
+			);
+			path = "Login Session App";
+			sourceTree = "<group>";
+		};
+		CF7B0F0620EB4669001E5728 /* Login Session AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF7B0F0720EB4669001E5728 /* Login_Session_AppTests.swift */,
+				CF7B0F0920EB466A001E5728 /* Info.plist */,
+			);
+			path = "Login Session AppTests";
+			sourceTree = "<group>";
+		};
+		CF7B0F1120EB466A001E5728 /* Login Session AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF7B0F1220EB466A001E5728 /* Login_Session_AppUITests.swift */,
+				CF7B0F1420EB466A001E5728 /* Info.plist */,
+			);
+			path = "Login Session AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF7B0EEE20EB4669001E5728 /* Login Session App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7B0F1720EB466A001E5728 /* Build configuration list for PBXNativeTarget "Login Session App" */;
+			buildPhases = (
+				CF7B0EEB20EB4669001E5728 /* Sources */,
+				CF7B0EEC20EB4669001E5728 /* Frameworks */,
+				CF7B0EED20EB4669001E5728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Login Session App";
+			productName = "Login Session App";
+			productReference = CF7B0EEF20EB4669001E5728 /* Login Session App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF7B0F0220EB4669001E5728 /* Login Session AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7B0F1A20EB466A001E5728 /* Build configuration list for PBXNativeTarget "Login Session AppTests" */;
+			buildPhases = (
+				CF7B0EFF20EB4669001E5728 /* Sources */,
+				CF7B0F0020EB4669001E5728 /* Frameworks */,
+				CF7B0F0120EB4669001E5728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7B0F0520EB4669001E5728 /* PBXTargetDependency */,
+			);
+			name = "Login Session AppTests";
+			productName = "Login Session AppTests";
+			productReference = CF7B0F0320EB4669001E5728 /* Login Session AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF7B0F0D20EB466A001E5728 /* Login Session AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7B0F1D20EB466A001E5728 /* Build configuration list for PBXNativeTarget "Login Session AppUITests" */;
+			buildPhases = (
+				CF7B0F0A20EB466A001E5728 /* Sources */,
+				CF7B0F0B20EB466A001E5728 /* Frameworks */,
+				CF7B0F0C20EB466A001E5728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7B0F1020EB466A001E5728 /* PBXTargetDependency */,
+			);
+			name = "Login Session AppUITests";
+			productName = "Login Session AppUITests";
+			productReference = CF7B0F0E20EB466A001E5728 /* Login Session AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF7B0EE720EB4669001E5728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ashwin Dinesh";
+				TargetAttributes = {
+					CF7B0EEE20EB4669001E5728 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CF7B0F0220EB4669001E5728 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF7B0EEE20EB4669001E5728;
+					};
+					CF7B0F0D20EB466A001E5728 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF7B0EEE20EB4669001E5728;
+					};
+				};
+			};
+			buildConfigurationList = CF7B0EEA20EB4669001E5728 /* Build configuration list for PBXProject "Login Session App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF7B0EE620EB4669001E5728;
+			productRefGroup = CF7B0EF020EB4669001E5728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF7B0EEE20EB4669001E5728 /* Login Session App */,
+				CF7B0F0220EB4669001E5728 /* Login Session AppTests */,
+				CF7B0F0D20EB466A001E5728 /* Login Session AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF7B0EED20EB4669001E5728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7B0EFD20EB4669001E5728 /* LaunchScreen.storyboard in Resources */,
+				CF7B0EFA20EB4669001E5728 /* Assets.xcassets in Resources */,
+				CF7B0EF820EB4669001E5728 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7B0F0120EB4669001E5728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7B0F0C20EB466A001E5728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF7B0EEB20EB4669001E5728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7B0EF520EB4669001E5728 /* ViewController.swift in Sources */,
+				CF7B0EF320EB4669001E5728 /* AppDelegate.swift in Sources */,
+				CF7B0F2120EB9C3C001E5728 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7B0EFF20EB4669001E5728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7B0F0820EB4669001E5728 /* Login_Session_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7B0F0A20EB466A001E5728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7B0F1320EB466A001E5728 /* Login_Session_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF7B0F0520EB4669001E5728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7B0EEE20EB4669001E5728 /* Login Session App */;
+			targetProxy = CF7B0F0420EB4669001E5728 /* PBXContainerItemProxy */;
+		};
+		CF7B0F1020EB466A001E5728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7B0EEE20EB4669001E5728 /* Login Session App */;
+			targetProxy = CF7B0F0F20EB466A001E5728 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF7B0EF620EB4669001E5728 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7B0EF720EB4669001E5728 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF7B0EFB20EB4669001E5728 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7B0EFC20EB4669001E5728 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF7B0F1520EB466A001E5728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF7B0F1620EB466A001E5728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7B0F1820EB466A001E5728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Login Session App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashwin.example.Login-Session-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF7B0F1920EB466A001E5728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Login Session App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashwin.example.Login-Session-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF7B0F1B20EB466A001E5728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Login Session AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashwin.example.Login-Session-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login Session App.app/Login Session App";
+			};
+			name = Debug;
+		};
+		CF7B0F1C20EB466A001E5728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Login Session AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashwin.example.Login-Session-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login Session App.app/Login Session App";
+			};
+			name = Release;
+		};
+		CF7B0F1E20EB466A001E5728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Login Session AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashwin.example.Login-Session-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Login Session App";
+			};
+			name = Debug;
+		};
+		CF7B0F1F20EB466A001E5728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Login Session AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashwin.example.Login-Session-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Login Session App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF7B0EEA20EB4669001E5728 /* Build configuration list for PBXProject "Login Session App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7B0F1520EB466A001E5728 /* Debug */,
+				CF7B0F1620EB466A001E5728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7B0F1720EB466A001E5728 /* Build configuration list for PBXNativeTarget "Login Session App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7B0F1820EB466A001E5728 /* Debug */,
+				CF7B0F1920EB466A001E5728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7B0F1A20EB466A001E5728 /* Build configuration list for PBXNativeTarget "Login Session AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7B0F1B20EB466A001E5728 /* Debug */,
+				CF7B0F1C20EB466A001E5728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7B0F1D20EB466A001E5728 /* Build configuration list for PBXNativeTarget "Login Session AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7B0F1E20EB466A001E5728 /* Debug */,
+				CF7B0F1F20EB466A001E5728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF7B0EE720EB4669001E5728 /* Project object */;
+}
